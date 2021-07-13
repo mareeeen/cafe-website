@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #578939;
+    
+}
+
+.page-header {
+    width: 100%;
+    display: inline-flex;
+    align-items: baseline;
+    padding-top: 5px;
+}
+
+.logo {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.insta {
+    padding-left: 350px;
+    font-size: 30px;
+}
+
+.insta a {
+    text-decoration: none;
+    outline: none;
+    color: #578939;
+}
+
+.nav-bar {
+    width: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: auto;
+}
+
+.nav-bar a {
+    color: #304D1F;
+    outline: none;
+    text-decoration: none;
+    padding: 0 10px 20px 10px;
+}
+.nav-bar a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+.one {
+    height: 90vh;
+}
+
+.smoothie-bowls {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+   
+}
+
+.smoothie-bowls img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.descriptions {
+margin-left: 50px;
+text-align: center;
+}
+
+.descriptions h2 {
+font-weight: 800;
+width: 400px;
+}
+
+.each {
+    font-weight: 600;
+}
+
+.two {
+    height: 80vh;
+}
+
+.sandwiches {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+}
+
+.sandwiches img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.sandwich-descriptions {
+    margin-right: 50px;
+    text-align: center;
+ }
+    
+ .sandwich-descriptions h2 {
+    font-weight: 800;
+    width: 400px;
+ }
